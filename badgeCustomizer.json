@@ -1,0 +1,22 @@
+{
+    "badges":[
+        {
+            "badge1": "badge1.png"
+        },
+        {
+            "badge2": "badge2.png"
+        },
+        {
+            "badge3": "badge3.png"
+        },
+        {
+            "badge4": "badge4.png"
+        },
+        {
+            "badge5": "badge5.png"
+        },
+		{
+		    "badge6": "badge6.png"
+		}
+    ]
+}

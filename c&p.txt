@@ -1,0 +1,29 @@
+abre la carpeta "smali/com/robtopx/geometryjump"
+y tu veras el archivo "GeometryJump.smali" abre el archivo y busca:
+    .line 69
+    const-string v0, "fmod"
+
+    invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+
+    .line 70
+    const-string v0, "cocos2dcpp"
+
+    invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+
+luego dos espacios y pegas lo de abajo
+    .line 71
+    const-string v0, "dobby"
+
+    invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+
+    .line 72
+    const-string v0, "hooking"
+
+    invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+
+    .line 73
+    const-string v0, "badgeCustomizer"
+
+    invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+
+Thanks to Naloon for helping
